@@ -5,7 +5,6 @@ app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'your_database_connection_string'
 db = SQLAlchemy(app)
 
-#testtesttest
 # User model
 class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
